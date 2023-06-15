@@ -22,3 +22,5 @@ sum(500,500)
 printName("Felipe")
 multiply(5,5)
 sayHello()
+
+var nombre = "jorge"
