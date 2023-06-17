@@ -1,14 +1,14 @@
 function xor(a, b) {
 
-    if ( a && !b) {
+    if ((a && !b) || (!a && b)) {
         console.log('True')
     }
           
     else {  
-         if ( a && b)
-         console.log('Falso')
-     }  
+     console.log('Falso')
+    }  
          
     }
     
-    xor(5 , 7)
+xor(false , true)
+
