@@ -1,12 +1,13 @@
+module.exports = plural 
+
 function plural(n) {
 
   if (n<1 || n>1) {
-    console.log('true')
+    return(true)
   }
   else {
-    console.log('false')
+    return(false)
   }
 
 }
 
-plural(1)
