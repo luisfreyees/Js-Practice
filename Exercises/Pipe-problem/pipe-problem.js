@@ -16,6 +16,7 @@ i = i + 1
     
 }
 
+//Test number 1 code modified
 
 console.log('Vueltas ' + i)
 console.log('Los numeros son: '+ numbers)
