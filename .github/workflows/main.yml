@@ -1,0 +1,21 @@
+name: Run Jest Tests
+
+on:
+  push:
+    branches:
+      - main  # Change this to the branch you want to trigger the pipeline
+
+jobs:
+  test:
+    name: Run Jest Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npm test
